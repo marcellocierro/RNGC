@@ -14,22 +14,17 @@
    as the range into which they fall into(default is set to 10 number
    which range from 1 to 100)
 
-   The primary data stucture utilized is a while loop to obtain user input for command line
-	 options. Additionally, there is a for loop which generates random numbers using the user inputed
-	 parameters.
-   numbers based on the information that we gathered from the user.
 
    Uses "getopt" for command-line options
+	
+   User input involves the amount of numbers to be generated, n, the lowerbound for the numbers
+   generated, l, and the upperbound for the numbers generated, u.
 
-	 User input involves the amount of numbers to be generated, n, the lowerbound for the numbers
-	 generated, l, and the upperbound for the numbers generated, u.
+   Errors found will be handled with an error message, errors occur if user enters no input.
 
-
-	 Errors found will be handled with an error message, errors occur if user enters no input.
-
-   The data included are; user variables, options, random number generator, and
+   The data taken in include; user variables, options, random number generator, and
    opt out.
-
+   
    Code reference from Odendahl
    http://cs.oswego.edu/~odendahl/coursework/csc344/notes/c/getopt/b/main.c
 
